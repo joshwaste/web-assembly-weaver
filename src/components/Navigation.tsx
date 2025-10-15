@@ -6,7 +6,6 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { ChevronDown } from "lucide-react";
-import lawgorithmLogo from "@/assets/lawgorithm-logo.png";
 
 const Navigation = () => {
   return (
@@ -14,7 +13,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-12">
-            <img src={lawgorithmLogo} alt="Lawgorithm" className="h-16 object-contain" />
+            <img src="/lawgorithm-logo.png" alt="Lawgorithm" className="h-20 object-contain bg-white/10 rounded-lg px-3 py-2" />
             
             <div className="hidden md:flex items-center gap-8">
               <a href="#search" className="text-sm hover:text-muted-foreground transition-colors">
