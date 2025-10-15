@@ -22,19 +22,6 @@ const Navigation = () => {
               <a href="#cases" className="text-sm hover:text-muted-foreground transition-colors">
                 Cases
               </a>
-              <a href="#insights" className="text-sm hover:text-muted-foreground transition-colors">
-                Insights
-              </a>
-              <DropdownMenu>
-                <DropdownMenuTrigger className="flex items-center gap-1 text-sm hover:text-muted-foreground transition-colors">
-                  Resources <ChevronDown className="h-4 w-4" />
-                </DropdownMenuTrigger>
-                <DropdownMenuContent>
-                  <DropdownMenuItem>Documentation</DropdownMenuItem>
-                  <DropdownMenuItem>Guides</DropdownMenuItem>
-                  <DropdownMenuItem>API Reference</DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
             </div>
           </div>
           
