@@ -13,7 +13,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-12">
-            <div className="text-2xl font-bold italic">Logo</div>
+            <img src="/Screenshot 2025-10-14 215217.png" alt="Lawgorithm" className="h-8" />
             
             <div className="hidden md:flex items-center gap-8">
               <a href="#search" className="text-sm hover:text-muted-foreground transition-colors">
